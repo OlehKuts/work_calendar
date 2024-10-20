@@ -10,7 +10,7 @@ export const DayItem = ({ day, index }) => {
       {index % 7 === 5 || index % 7 === 6 ? (
         <>
           <div className="weekend">
-            <div className="weekendHeader">{index < 31 ? dayNumber : ""} </div>
+            <div className="weekendHeader">{index < 35 ? dayNumber : ""} </div>
           </div>
         </>
       ) : (
