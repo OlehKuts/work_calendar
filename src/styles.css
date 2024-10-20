@@ -1,0 +1,182 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.dayItem {
+  height: 151px;
+  border-right: 1px solid black;
+}
+.visitLine {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 250px;
+  font-size: 14px;
+}
+.emptyCell {
+  width: 250px;
+  height: 148px;
+  border: 1px solid gray;
+}
+.emptyField {
+  width: 75%;
+  height: 42px;
+}
+.visitTime {
+  width: 15%;
+  text-align: center;
+  height: 25px;
+  padding-top: 17px;
+  font-size: 10px;
+  opacity: 0.1;
+  border-left: 0.5px solid gray;
+}
+.doctorNames {
+  height: 42px;
+  display: grid;
+  grid-template-columns: repeat(2, 15px);
+}
+.doctorNames div {
+  border: 0.5px solid gray;
+  padding-top: 2px;
+}
+.emptyField,
+.visitTime,
+.doctorNames {
+  border-right: 0.5px solid gray;
+  opacity: 0.3;
+}
+h2 {
+  margin: 0 auto 5px auto;
+}
+.headerLine {
+  width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(5, 250px) 1fr 1fr;
+}
+.headerLine div {
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid gray;
+}
+#dateLine {
+  /* width: 200px; */
+  text-align: center;
+}
+.calendarContainer {
+  width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(5, 250px) 75px 75px;
+}
+.weekend {
+  width: 75px;
+  text-align: center;
+  border: 1px solid black;
+  border-top: 0;
+}
+.weekendHeader {
+  border: 1px solid black;
+  border-top: 0;
+}
+#sb__open-sandbox0,
+#sb__open-sandbox1,
+#sb__open-sandbox2,
+#sb__open-sandbox3,
+#sb__open-sandbox4,
+#sb__open-sandbox5,
+#sb__open-sandbox6,
+#sb__open-sandbox7,
+#sb__open-sandbox8,
+#sb__open-sandbox9,
+#sb__open-sandbox10,
+#sb__open-sandbox11,
+#sb__open-sandbox12,
+#sb__open-sandbox13,
+#sb__open-sandbox14,
+#sb__open-sandbox15,
+#sb__open-sandbox16,
+#sb__open-sandbox17,
+#sb__open-sandbox18,
+#sb__open-sandbox19,
+#sb__open-sandbox20,
+#sb__open-sandbox21,
+#sb__open-sandbox22,
+#sb__open-sandbox23,
+#sb__open-sandbox24,
+#sb__open-sandbox25,
+#sb__open-sandbox26,
+#sb__open-sandbox27,
+#sb__open-sandbox28,
+#sb__open-sandbox29,
+#sb__open-sandbox30,
+#sb__open-sandbox31,
+#sb__open-sandbox32,
+#sb__open-sandbox33,
+#sb__open-sandbox34,
+#sb__open-sandbox35,
+#sb__open-sandbox36,
+#sb__open-sandbox37,
+#sb__open-sandbox38,
+#sb__open-sandbox39,
+#sb__open-sandbox40,
+#sb__open-sandbox41,
+#sb__open-sandbox42,
+#sb__open-sandbox43,
+#sb__open-sandbox44,
+#sb__open-sandbox45,
+#sb__open-sandbox46,
+#sb__open-sandbox47,
+#sb__open-sandbox48,
+#sb__open-sandbox49,
+#sb__open-sandbox50,
+#sb__open-sandbox51,
+#sb__open-sandbox52,
+#sb__open-sandbox53,
+#sb__open-sandbox54,
+#sb__open-sandbox55,
+#sb__open-sandbox56,
+#sb__open-sandbox57,
+#sb__open-sandbox58,
+#sb__open-sandbox59,
+#sb__open-sandbox60,
+#sb__open-sandbox61,
+#sb__open-sandbox62,
+#sb__open-sandbox63,
+#sb__open-sandbox64,
+#sb__open-sandbox65,
+#sb__open-sandbox66,
+#sb__open-sandbox67,
+#sb__open-sandbox68,
+#sb__open-sandbox69,
+#sb__open-sandbox70,
+#sb__open-sandbox71,
+#sb__open-sandbox72,
+#sb__open-sandbox73,
+#sb__open-sandbox74,
+#sb__open-sandbox75,
+#sb__open-sandbox76,
+#sb__open-sandbox77,
+#sb__open-sandbox78,
+#sb__open-sandbox79,
+#sb__open-sandbox80,
+#sb__open-sandbox81,
+#sb__open-sandbox82,
+#sb__open-sandbox83,
+#sb__open-sandbox84,
+#sb__open-sandbox85,
+#sb__open-sandbox86,
+#sb__open-sandbox87,
+#sb__open-sandbox88,
+#sb__open-sandbox89,
+#sb__open-sandbox90,
+#sb__open-sandbox91,
+#sb__open-sandbox92,
+#sb__open-sandbox93,
+#sb__open-sandbox94,
+#sb__open-sandbox95,
+#sb__open-sandbox96,
+#sb__open-sandbox97,
+#sb__open-sandbox98,
+#sb__open-sandbox99 {
+  display: none !important;
+}
